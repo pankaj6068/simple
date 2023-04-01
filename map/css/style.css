@@ -3,7 +3,7 @@ body{
 }
 
 .mapdiv{
-    width:28%;
+    width:100%;
     margin: auto;
 }
 
@@ -18,22 +18,22 @@ body{
 #IN-RJ{
     fill: #666666;
 }
-/* #IN-RJ :hover{
+.mapdiv #IN-RJ:hover{
     fill: #c55104;
-} */
+}
 #IN-MP{
     fill: #666666;
 }
-/* #IN-MP :hover{
-    fill: #666666;
-} */
+.mapdiv #IN-MP:hover{
+    fill: #057028;
+}
 #IN-CT{
     fill: #666666;
 }
-/* #IN-CT :hover{
-    fill: #666666;
-} */
+.mapdiv #IN-CT:hover{
+    fill: #1c3e70;
+}
 
 .mapdiv :hover {
-    fill:#c55104;
+    fill:gray;
 }
